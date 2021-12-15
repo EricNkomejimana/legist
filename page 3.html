@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration form</title>
+	<style type="text/css">
+		body{
+			background-color:dodgerblue;
+			font-size: 25px;
+			font-family: sans-serif;
+
+		}
+		h1{
+			color: black;}
+			
+	</style>
+</head>
+<body>
+<h1>Rgister for our courses today!</h1>
+<h3 style=" color: black;">Student Information</h3>
+	<form style="background-color: greenyellow; width: 70%;  font-size: 110%; border: black; margin-left: 50px;">
+		<br>
+		First Name:<input type="text" name="fname">
+		
+		Last Name:<input type="text" name="lname">
+		<br>
+		E-mail:<input type="text" name="email"><br><br>
+		Age:<input type="numbers" name="age"><br><br>
+		Gender:<br>
+		<input type="radio" name="Gender" value="Male">Male
+		<input type="radio" name="Gender" value="Female">female<br><br>
+		Course:<br>
+		<input type="radio" name="course" value="HTM">HTM
+		<input type="radio" name="course" value="Medecine">Medecine
+		<input type="radio" name="course" value="INS">INS
+		<input type="radio" name="course" value="BME">BME
+		<input type="radio" name="course" value="Statistic">Statistics<br><br>
+		Hobbies:<br>
+		<input type="checkbox" name="Hobbies" value="Music">Music
+		<input type="checkbox" name="Hobbies" value="Sport">Sport
+		<input type="checkbox" name="Hobbies" value="Travel">Travel
+		<input type="checkbox" name="Hobbies" value="Movies">Movies<br><br>
+		Home District:<br>
+		<select name="District">
+			<option value="Select District"> Select District</option>
+			<option value="Musanze">Musanze</option>
+			<option value="Rulindo">Rulindo</option>
+			<option value="Gakenke">Gakenke</option>
+			<option value="Gicumbi">Gicumbi</option>
+			<option value="Burera">Burera</option>
+			<option value="Nyarugenge">Nyarugenge</option>
+			<option value="Gasabo">Gasabo</option>
+			<option value="Kicukiro">Kicukiro</option>
+			<option value="Bugesera">Bugesera</option>
+			<option value="Muhanga">Muhanga</option>
+		</select>
+		<br><br>
+		
+		<br>
+		Bio:
+		<textarea>Please add your bio data here</textarea>
+		<br><br>
+		<input type="submit" name="Register">
+		<form action="/action_page.php" target="_blank">
+	</form>
+</body>
+</html>

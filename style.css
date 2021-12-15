@@ -1,0 +1,13 @@
+body{
+			background-color:dodgerblue;
+			font-size: 25px;
+			font-family: sans-serif;
+
+		}
+		h1{background-color: blue;
+			color: white;
+			text-align: center;}
+			a:link{color: darkblue;}
+			a:hover{color: red;}
+			a{text-decoration: none;}
+
